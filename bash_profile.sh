@@ -53,6 +53,7 @@ alias rapps='cd $GITHUB_DIR/buildtools/rekuapps; bashrc'
 alias  mink='cd $GITHUB_DIR/minedata-kk; bashrc'
 alias rekuj='cd $GITHUB_DIR/ReKu/reku-jobs; bashrc'
 alias rekub='cd $GITHUB_DIR/ReKu/reku-jobs/batch; bashrc'
+alias rekus='cd $GITHUB_DIR/ReKu/reku-services; bashrc'
 alias  geno='cd $GITHUB_DIR/geno; bashrc'
 
 ### Path ###
