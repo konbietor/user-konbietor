@@ -56,6 +56,9 @@ alias rekub='cd $GITHUB_DIR/ReKu/reku-jobs/batch; bashrc'
 alias rekus='cd $GITHUB_DIR/ReKu/reku-services; bashrc'
 alias  geno='cd $GITHUB_DIR/geno; bashrc'
 
+### CoffeeScript ###
+alias genocoffee='coffee -wc ~/GitHub/geno/src/main/webapp/javascript/*.coffee'
+
 ### Path ###
 # (Requires $JAVA_HOME and $GIT_HOME to be set)
 export PATH=$PATH:$JAVA_HOME/bin:$GIT_HOME/cmd:$MVN_HOME/bin
