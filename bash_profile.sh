@@ -13,7 +13,7 @@ GITHUB_DIR=~/GitHub
 #export JAVA_HOME=$SOFTWARE_HOME/Java/jdk1.6.0_38
 #export GIT_HOME=/usr/local/git
 export MVN_HOME=$SOFTWARE_HOME/Maven/apache-maven-3.0.4
-export JREBEL_HOME=$SOFTWARE_HOME/JRebel/jrebel-5.1.2
+export JREBEL_HOME=$SOFTWARE_HOME/JRebel/jrebel-5.5
 
 
 ### Maven ###
