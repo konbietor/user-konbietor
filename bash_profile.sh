@@ -19,6 +19,7 @@ export JREBEL_HOME=$SOFTWARE_HOME/JRebel/jrebel-5.5
 ### Maven ###
 alias mvni='mvn -T 1C clean install -P jrebel -DskipTests=true'
 alias mvnit='mvn -T 1C clean install -P jrebel'
+alias mvnt='mvn -T 1C test'
 
 ### Git  ###
 alias   gpsh='git push'
