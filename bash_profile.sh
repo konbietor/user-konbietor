@@ -30,11 +30,12 @@ alias    gch='git checkout'
 alias     gs='git status'
 alias gchdev='git checkout develop'
 alias gchrel='git checkout release/current'
+alias gchthb='git checkout feature/rfos-324-calculate-monthly-statistics-herd'
 
 
 ### Jetty ###
 alias       j='sh jetty.sh'
-alias      jr='sh jetty.rebel.sh'
+alias      jr='sh jetty.rebel.sh nocache'
 alias  jrperf='sh jetty.rebel.sh perf,nocache'
 alias jrcache='sh jetty.rebel.sh dev-sdbtest'
 
