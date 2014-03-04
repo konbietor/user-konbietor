@@ -30,7 +30,7 @@ alias    gch='git checkout'
 alias     gs='git status'
 alias gchdev='git checkout develop'
 alias gchrel='git checkout release/current'
-alias gchthb='git checkout feature/rfos-324-calculate-monthly-statistics-herd'
+alias gchthb='git checkout feature/rfos-830-aggregate-for-groupings'
 
 
 ### Jetty ###
