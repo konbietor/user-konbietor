@@ -31,6 +31,10 @@ alias     gs='git status'
 alias gchdev='git checkout develop'
 alias gchrel='git checkout release/current'
 alias gchthb='git checkout feature/rfos-830-aggregate-for-groupings'
+alias gb='git branch'
+alias gbdl='git branch -d '
+alias gbdr='git push origin --delete '
+
 
 
 ### Jetty ###
@@ -60,7 +64,7 @@ alias rekus='cd $GITHUB_DIR/ReKu/reku-services; bashrc'
 alias  geno='cd $GITHUB_DIR/geno; bashrc'
 
 ### CoffeeScript ###
-alias genocoffee='coffee -wc ~/GitHub/geno/src/main/webapp/javascript/*.coffee'
+alias genocoffee='coffee -wc ~/GitHub/geno/web/src/main/webapp/javascript/*.coffee'
 
 ### Path ###
 # (Requires $JAVA_HOME and $GIT_HOME to be set)
