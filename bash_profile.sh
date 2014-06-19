@@ -64,7 +64,7 @@ alias rekus='cd $GITHUB_DIR/ReKu/reku-services; bashrc'
 alias  geno='cd $GITHUB_DIR/geno; bashrc'
 
 ### CoffeeScript ###
-alias genocoffee='coffee -wc ~/GitHub/geno/web/src/main/webapp/javascript/*.coffee'
+alias genocoffee='coffee -wc ~/GitHub/geno/web/src/main/webapp/javascript/*.coffee ~/GitHub/geno/web/src/main/webapp/javascript/*/*.coffee'
 
 ### Path ###
 # (Requires $JAVA_HOME and $GIT_HOME to be set)
