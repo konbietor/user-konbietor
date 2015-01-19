@@ -45,8 +45,9 @@ alias jrcache='sh jetty.rebel.sh dev-sdbtest'
 
 
 ### Diverse ####
-alias bashrc='source "${HOME}/.bashrc"'
-alias   list='cat $SCRIPT_DIR/bash_profile.sh'
+alias  bashrc='source "${HOME}/.bashrc"'
+alias    list='cat $SCRIPT_DIR/bash_profile.sh'
+alias vpntine='f5vpn-login konbietor@firepass.tine.no'
 
 
 ### Change directory ###

@@ -1,0 +1,4 @@
+clone https://github.com/nherment/f5vpn-login
+
+$ sudo make install
+$ f5vpn-login konbietor@firepass.tine.no
