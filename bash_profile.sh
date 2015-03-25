@@ -5,6 +5,10 @@ if [ -f "${HOME}/.bashrc" ] ; then
   source "${HOME}/.bashrc"
 fi
 
+### Hidden files ###
+alias shf = 'defaults write com.apple.finder AppleShowAllFiles -boolean true  ; killall Finder'
+alias hhf = 'defaults write com.apple.finder AppleShowAllFiles -boolean false ; killall Finder'
+
 ### Base directories ###
 SOFTWARE_HOME=~/Software
 GITHUB_DIR=~/GitHub
@@ -17,9 +21,12 @@ export JREBEL_HOME=$SOFTWARE_HOME/JRebel/jrebel-5.5
 
 
 ### Maven ###
-alias mvni='mvn -T 1C clean install -P jrebel -DskipTests=true'
-alias mvnit='mvn -T 1C clean install -P jrebel'
-alias mvnt='mvn -T 1C test'
+#alias mvni='mvn -T 1C clean install -P jrebel -DskipTests=true'
+alias mvni='mvn clean install -P jrebel -DskipTests=true'
+#alias mvnit='mvn -T 1C clean install -P jrebel'
+alias mvnit='mvn clean install -P jrebel'
+#alias mvnt='mvn -T 1C test'
+alias mvnt='mvn test'
 
 ### Git  ###
 alias   gpsh='git push'
@@ -39,9 +46,7 @@ alias gbdr='git push origin --delete '
 
 ### Jetty ###
 alias       j='sh jetty.sh'
-alias      jr='sh jetty.rebel.sh nocache'
-alias  jrperf='sh jetty.rebel.sh perf,nocache'
-alias jrcache='sh jetty.rebel.sh dev-sdbtest'
+alias      jr='sh jetty.sh jrebel'
 
 
 ### Diverse ####
