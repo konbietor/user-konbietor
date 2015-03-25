@@ -6,8 +6,8 @@ if [ -f "${HOME}/.bashrc" ] ; then
 fi
 
 ### Hidden files ###
-alias shf = 'defaults write com.apple.finder AppleShowAllFiles -boolean true  ; killall Finder'
-alias hhf = 'defaults write com.apple.finder AppleShowAllFiles -boolean false ; killall Finder'
+alias shf='defaults write com.apple.finder AppleShowAllFiles -boolean true  ; killall Finder'
+alias hhf='defaults write com.apple.finder AppleShowAllFiles -boolean false ; killall Finder'
 
 ### Base directories ###
 SOFTWARE_HOME=~/Software
