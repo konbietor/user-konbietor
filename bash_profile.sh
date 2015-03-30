@@ -52,7 +52,7 @@ alias      jr='sh jetty.sh jrebel'
 ### Diverse ####
 alias  bashrc='source "${HOME}/.bashrc"'
 alias    list='cat $SCRIPT_DIR/bash_profile.sh'
-alias vpntine='f5vpn-login konbietor@firepass.tine.no'
+alias     vpn='cd $GITHUB_DIR/f5vpn-login; f5vpn-login konbietor@firepass.tine.no'
 
 
 ### Change directory ###
