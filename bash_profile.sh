@@ -49,6 +49,9 @@ alias       j='sh jetty.sh'
 alias      jr='sh jetty.sh jrebel'
 
 
+### Grunt ###
+alias    grs='grunt serve'
+
 ### Diverse ####
 alias  bashrc='source "${HOME}/.bashrc"'
 alias    list='cat $SCRIPT_DIR/bash_profile.sh'
