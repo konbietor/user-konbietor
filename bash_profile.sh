@@ -27,6 +27,7 @@ alias mvni='mvn clean install -P jrebel -DskipTests=true'
 alias mvnit='mvn clean install -P jrebel'
 #alias mvnt='mvn -T 1C test'
 alias mvnt='mvn test'
+alias sonar='mvn org.codehaus.mojo:sonar-maven-plugin:2.5:sonar'
 
 ### Git  ###
 alias   gpsh='git push'
