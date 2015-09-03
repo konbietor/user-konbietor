@@ -18,6 +18,7 @@ GITHUB_DIR=~/GitHub
 #export GIT_HOME=/usr/local/git
 export MVN_HOME=$SOFTWARE_HOME/Maven/apache-maven-3.0.4
 export JREBEL_HOME=$SOFTWARE_HOME/JRebel/jrebel-5.5
+export GRADLE_HOME=/Applications/gradle-2.6
 
 
 ### Maven ###
@@ -61,6 +62,9 @@ alias  bashrc='source "${HOME}/.bashrc"'
 alias    list='cat $SCRIPT_DIR/bash_profile.sh'
 alias     vpn='cd $GITHUB_DIR/f5vpn-login; f5vpn-login konbietor@firepass.tine.no'
 
+### NDX ###
+alias copytondxtst='scp target/ndx.jar ndx@tsttrmapp30001:apps/ndx.jar'
+
 
 ### Change directory ###
 alias    uk='cd $GITHUB_DIR/user-konbietor; bashrc'
@@ -81,7 +85,7 @@ alias genocoffee='coffee -wc ~/GitHub/geno/web/src/main/webapp/javascript/*.coff
 
 ### Path ###
 # (Requires $JAVA_HOME and $GIT_HOME to be set)
-export PATH=$PATH:$JAVA_HOME/bin:$GIT_HOME/cmd:$MVN_HOME/bin
+export PATH=$PATH:$JAVA_HOME/bin:$GIT_HOME/cmd:$MVN_HOME/bin:$GRADLE_HOME/bin
 
 ### Maven ###
 export MAVEN_OPTS='-Xmx512m -XX:MaxPermSize=256m'
