@@ -1,3 +1,6 @@
+#!/usr/bin/env bash
+
+
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # Source the users bashrc if it exists
@@ -19,6 +22,7 @@ GITHUB_DIR=~/GitHub
 export MVN_HOME=$SOFTWARE_HOME/Maven/apache-maven-3.0.4
 export JREBEL_HOME=$SOFTWARE_HOME/JRebel/jrebel-5.5
 export GRADLE_HOME=/Applications/gradle-2.6
+export SONAR_RUNNER_HOME=/Applications/sonar-runner-2.4
 
 
 ### Maven ###
@@ -85,7 +89,7 @@ alias genocoffee='coffee -wc ~/GitHub/geno/web/src/main/webapp/javascript/*.coff
 
 ### Path ###
 # (Requires $JAVA_HOME and $GIT_HOME to be set)
-export PATH=$PATH:$JAVA_HOME/bin:$GIT_HOME/cmd:$MVN_HOME/bin:$GRADLE_HOME/bin
+export PATH=$PATH:$JAVA_HOME/bin:$GIT_HOME/cmd:$MVN_HOME/bin:$GRADLE_HOME/bin:$SONAR_RUNNER_HOME/bin
 
 ### Maven ###
 export MAVEN_OPTS='-Xmx512m -XX:MaxPermSize=256m'
