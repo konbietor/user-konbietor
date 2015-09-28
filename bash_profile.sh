@@ -84,6 +84,10 @@ alias rekub='cd $GITHUB_DIR/ReKu/reku-jobs/batch; bashrc'
 alias rekus='cd $GITHUB_DIR/ReKu/reku-services; bashrc'
 alias  geno='cd $GITHUB_DIR/geno; bashrc'
 
+
+### SSH ###
+alias sshtbstst='ssh tbs@tsttrmapp66601'
+
 ### CoffeeScript ###
 alias genocoffee='coffee -wc ~/GitHub/geno/web/src/main/webapp/javascript/*.coffee ~/GitHub/geno/web/src/main/webapp/javascript/*/*.coffee'
 
