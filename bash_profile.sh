@@ -71,7 +71,7 @@ alias    grs='grunt serve'
 ### Diverse ####
 alias  bashrc='source "${HOME}/.bashrc"'
 alias    list='cat $SCRIPT_DIR/bash_profile.sh'
-alias     vpn='cd $GITHUB_DIR/f5vpn-login; f5vpn-login konbietor@firepass.tine.no'
+alias     vpn='cd $GITHUB_DIR/f5vpn-login; sudo python f5vpn-login.py konbietor@firepass.tine.no'
 
 ### NDX ###
 alias copytondxtst='scp target/ndx.jar ndx@tsttrmapp30001:apps/ndx.jar'
