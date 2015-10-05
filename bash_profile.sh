@@ -37,6 +37,13 @@ alias sb='mvn spring-boot:run'
 alias sonar='mvn org.codehaus.mojo:sonar-maven-plugin:2.5:sonar'
 
 
+### Gradle ###
+alias    gcb='gradle --daemon clean build'
+alias    gbr='gradle --daemon bootRun'
+alias    gsb='gbr'
+alias gitest='gradle --daemon integrationTest'
+
+
 ### Git  ###
 alias   gpsh='git push'
 alias    gpl='git pull --ff-only'
