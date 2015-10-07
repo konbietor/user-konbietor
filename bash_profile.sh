@@ -75,6 +75,9 @@ alias     vpn='cd $GITHUB_DIR/f5vpn-login; sudo python f5vpn-login.py konbietor@
 
 ### NDX ###
 alias copytondxtst='scp target/ndx.jar ndx@tsttrmapp30001:apps/ndx.jar'
+alias copytotbstst='scp build/libs/backend-0.1-SNAPSHOT.jar tbs@tsttrmapp66601:apps/tbs-backend.jar'
+
+
 
 
 ### Change directory ###
