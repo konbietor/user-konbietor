@@ -76,6 +76,7 @@ alias     vpn='cd $GITHUB_DIR/f5vpn-login; sudo python f5vpn-login.py konbietor@
 ### NDX ###
 alias copytondxtst='scp target/ndx.jar ndx@tsttrmapp30001:apps/ndx.jar'
 alias copytotbstst='scp build/libs/backend-0.1-SNAPSHOT.jar tbs@tsttrmapp66601:apps/tbs-backend.jar'
+alias  copytotbsqa='scp build/libs/backend-0.1-SNAPSHOT.jar tbs@qatrmapp10001:apps/tbs-backend.jar'
 
 
 
@@ -96,7 +97,9 @@ alias  geno='cd $GITHUB_DIR/geno; bashrc'
 
 
 ### SSH ###
-alias sshtbstst='ssh tbs@tsttrmapp66601'
+alias  sshtbstst='ssh tbs@tsttrmapp66601'
+alias   sshtbsqa='ssh tbs@qatrmapp10001'
+alias sshtbsprod='ssh tbs@trmapp10001.tine.no'
 
 ### CoffeeScript ###
 alias genocoffee='coffee -wc ~/GitHub/geno/web/src/main/webapp/javascript/*.coffee ~/GitHub/geno/web/src/main/webapp/javascript/*/*.coffee'
