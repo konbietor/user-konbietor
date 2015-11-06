@@ -69,8 +69,6 @@ alias      jr='sh jetty.sh jrebel'
 alias    grs='grunt serve'
 
 ### Diverse ####
-alias  bashrc='source "${HOME}/.bashrc"'
-alias    list='cat $SCRIPT_DIR/bash_profile.sh'
 alias     vpn='cd $GITHUB_DIR/f5vpn-login; sudo python f5vpn-login.py konbietor@firepass.tine.no'
 
 ### NDX ###
@@ -110,3 +108,12 @@ export PATH=$PATH:$JAVA_HOME/bin:$GIT_HOME/cmd:$MVN_HOME/bin:$GRADLE_HOME/bin:$S
 
 ### Maven ###
 export MAVEN_OPTS='-Xmx512m -XX:MaxPermSize=256m'
+
+
+### Linux ###
+alias lsdirs='ls -dl */'
+
+### Bash profile ###
+alias reload='source ~/.bash_profile'
+alias  bashrc='source "${HOME}/.bashrc"'
+alias    list='cat $SCRIPT_DIR/bash_profile.sh'
