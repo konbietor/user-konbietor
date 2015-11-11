@@ -38,10 +38,11 @@ alias sonar='mvn org.codehaus.mojo:sonar-maven-plugin:2.5:sonar'
 
 
 ### Gradle ###
-alias    gcb='gradle --daemon clean build'
-alias    gbr='gradle --daemon bootRun'
-alias    gsb='gbr'
-alias gitest='gradle --daemon integrationTest'
+alias     gcb='gradle --daemon clean build'
+alias     gbr='gradle --daemon bootRun'
+alias     gsb='gbr'
+alias  gitest='gradle --daemon integrationTest'
+alias gsingle='gradle integrationTest --daemon --info --tests '
 
 
 ### Git  ###
