@@ -39,10 +39,11 @@ alias sonar='mvn org.codehaus.mojo:sonar-maven-plugin:2.5:sonar'
 
 ### Gradle ###
 alias     gcb='gradle --daemon clean build'
+alias  gcbdev='gcb -Dsdbapi.env=dev'
 alias     gbr='gradle --daemon bootRun'
 alias     gsb='gbr'
 alias  gitest='gradle --daemon integrationTest'
-alias gsingle='gradle integrationTest --daemon --info --tests '
+alias gsingle='gradle clean integrationTest --daemon --info --tests '
 
 
 ### Git  ###
@@ -73,11 +74,8 @@ alias    grs='grunt serve'
 alias     vpn='cd $GITHUB_DIR/f5vpn-login; sudo python f5vpn-login.py konbietor@firepass.tine.no'
 
 ### NDX ###
-alias copytondxtst='scp target/ndx.jar ndx@tsttrmapp30001:apps/ndx.jar'
-alias copytotbstst='scp build/libs/backend-0.1-SNAPSHOT.jar tbs@tsttrmapp66601:apps/tbs-backend.jar'
-alias  copytotbsqa='scp build/libs/backend-0.1-SNAPSHOT.jar tbs@qatrmapp10001:apps/tbs-backend.jar'
-
-
+alias copytondxtst='scp target/ndx.jar ndx@tsttrmapp66601:apps/ndx.jar'
+alias    sshndxtst='ssh ndx@tsttrmapp66601.tine.no'
 
 
 ### Change directory ###
@@ -95,10 +93,13 @@ alias rekus='cd $GITHUB_DIR/ReKu/reku-services; bashrc'
 alias  geno='cd $GITHUB_DIR/geno; bashrc'
 
 
-### SSH ###
-alias  sshtbstst='ssh tbs@tsttrmapp66601'
-alias   sshtbsqa='ssh tbs@qatrmapp10001'
-alias sshtbsprod='ssh tbs@trmapp10001.tine.no'
+### TBS ###
+alias    sshtbstst='ssh tbs@tsttrmapp66601'
+alias     sshtbsqa='ssh tbs@qatrmapp10001'
+alias   sshtbsprod='ssh tbs@trmapp10001.tine.no'
+alias copytotbstst='scp build/libs/backend-0.1-SNAPSHOT.jar tbs@tsttrmapp66601:apps/tbs-backend.jar'
+alias  copytotbsqa='scp build/libs/backend-0.1-SNAPSHOT.jar tbs@qatrmapp10001:apps/tbs-backend.jar'
+
 
 ### CoffeeScript ###
 alias genocoffee='coffee -wc ~/GitHub/geno/web/src/main/webapp/javascript/*.coffee ~/GitHub/geno/web/src/main/webapp/javascript/*/*.coffee'
