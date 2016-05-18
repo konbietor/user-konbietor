@@ -21,7 +21,6 @@ GITHUB_DIR=~/GitHub
 #export GIT_HOME=/usr/local/git
 export MVN_HOME=$SOFTWARE_HOME/Maven/apache-maven-3.3.3
 export JREBEL_HOME=$SOFTWARE_HOME/JRebel/jrebel-5.5
-export GRADLE_HOME=/Applications/gradle-2.6
 export SONAR_RUNNER_HOME=/Applications/sonar-runner-2.4
 
 
@@ -38,12 +37,14 @@ alias sonar='mvn org.codehaus.mojo:sonar-maven-plugin:2.5:sonar'
 
 
 ### Gradle ###
-alias     gcb='gradle --daemon clean build'
+alias  gradle='gradlew'
+alias gradlew='./gradlew'
+alias     gcb='gradlew --daemon clean build'
 alias  gcbdev='gcb -Dsdbapi.env=dev'
-alias     gbr='gradle --daemon bootRun'
+alias     gbr='gradlew bootRun'
 alias     gsb='gbr'
-alias  gitest='gradle --daemon integrationTest'
-alias gsingle='gradle clean integrationTest --daemon --info --tests '
+alias  gitest='gradlew --daemon integrationTest'
+alias gsingle='gradlew clean integrationTest --daemon --info --tests '
 
 
 ### Git  ###
@@ -109,7 +110,7 @@ alias genocoffee='coffee -wc ~/GitHub/geno/web/src/main/webapp/javascript/*.coff
 
 ### Path ###
 # (Requires $JAVA_HOME and $GIT_HOME to be set)
-export PATH=$PATH:$JAVA_HOME/bin:$GIT_HOME/cmd:$MVN_HOME/bin:$GRADLE_HOME/bin:$SONAR_RUNNER_HOME/bin
+export PATH=$PATH:$JAVA_HOME/bin:$GIT_HOME/cmd:$MVN_HOME/bin:$SONAR_RUNNER_HOME/bin
 
 ### Maven ###
 export MAVEN_OPTS='-Xmx512m -XX:MaxPermSize=256m'
