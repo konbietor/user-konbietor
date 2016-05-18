@@ -19,7 +19,7 @@ GITHUB_DIR=~/GitHub
 ### Home directories export ###
 #export JAVA_HOME=$SOFTWARE_HOME/Java/jdk1.6.0_38
 #export GIT_HOME=/usr/local/git
-export MVN_HOME=$SOFTWARE_HOME/Maven/apache-maven-3.0.4
+export MVN_HOME=$SOFTWARE_HOME/Maven/apache-maven-3.3.3
 export JREBEL_HOME=$SOFTWARE_HOME/JRebel/jrebel-5.5
 export GRADLE_HOME=/Applications/gradle-2.6
 export SONAR_RUNNER_HOME=/Applications/sonar-runner-2.4
@@ -91,6 +91,9 @@ alias rekuj='cd $GITHUB_DIR/ReKu/reku-jobs; bashrc'
 alias rekub='cd $GITHUB_DIR/ReKu/reku-jobs/batch; bashrc'
 alias rekus='cd $GITHUB_DIR/ReKu/reku-services; bashrc'
 alias  geno='cd $GITHUB_DIR/geno; bashrc'
+alias    ek='cd $GITHUB_DIR/ek'
+alias   tbs='cd $GITHUB_DIR/tbs'
+alias   ndx='cd $GITHUB_DIR/ndx'
 
 
 ### TBS ###
@@ -114,6 +117,7 @@ export MAVEN_OPTS='-Xmx512m -XX:MaxPermSize=256m'
 
 ### Linux ###
 alias lsdirs='ls -dl */'
+alias   cd..='cd ..'
 
 ### Bash profile ###
 alias reload='source ~/.bash_profile'
