@@ -66,7 +66,7 @@ alias gbdr='git push origin --delete '
 ### Jetty ###
 alias       j='sh jetty.sh'
 alias      jr='sh jetty.sh jrebel'
-
+alias     ekj='sh jetty.sh key-numbers-min'
 
 ### Grunt ###
 alias    grs='grunt serve'
