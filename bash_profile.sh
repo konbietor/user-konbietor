@@ -95,6 +95,9 @@ alias  geno='cd $GITHUB_DIR/geno; bashrc'
 alias    ek='cd $GITHUB_DIR/ek'
 alias   tbs='cd $GITHUB_DIR/tbs'
 alias   ndx='cd $GITHUB_DIR/ndx'
+alias   hz='cd $GITHUB_DIR/tine-hazelcast'
+alias  hzs='cd $GITHUB_DIR/tine-hazelcast/server'
+alias  hzr='cd $GITHUB_DIR/tine-hazelcast/api-runtime'
 
 
 ### TBS ###
