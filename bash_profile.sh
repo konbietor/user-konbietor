@@ -101,11 +101,13 @@ alias  hzr='cd $GITHUB_DIR/tine-hazelcast/api-runtime'
 
 
 ### TBS ###
-alias    sshtbstst='ssh tbs@tsttrmapp66601'
-alias     sshtbsqa='ssh tbs@qatrmapp10001'
-alias   sshtbsprod='ssh tbs@trmapp10001.tine.no'
-alias copytotbstst='scp build/libs/backend-0.1-SNAPSHOT.jar tbs@tsttrmapp66601:apps/tbs-backend.jar'
-alias  copytotbsqa='scp build/libs/backend-0.1-SNAPSHOT.jar tbs@qatrmapp10001:apps/tbs-backend.jar'
+alias     sshtbstst='ssh tbs@tsttrmapp66601'
+alias      sshtbsqa='ssh tbs@qatrmapp10001'
+alias    sshtbsprod='ssh tbs@trmapp10001.tine.no'
+alias       sshgrid='ssh grid@grid10001'
+alias sshgridapitst='ssh hz@tsttrmapp66602'
+alias  copytotbstst='scp build/libs/backend-0.1-SNAPSHOT.jar tbs@tsttrmapp66601:apps/tbs-backend.jar'
+alias   copytotbsqa='scp build/libs/backend-0.1-SNAPSHOT.jar tbs@qatrmapp10001:apps/tbs-backend.jar'
 
 
 ### CoffeeScript ###
