@@ -110,6 +110,7 @@ alias   copytotbsqa='scp build/libs/backend-0.1-SNAPSHOT.jar tbs@qatrmapp10001:a
 ### GRID ###
 alias       sshgrid='ssh grid@grid10001'
 alias sshgridapitst='ssh hz@tsttrmapp66602'
+alias  sshgridapiqa='ssh hz@qatrmapp10002.tine.no'
 
 ### EK ###
 alias     sshektest='ssh ek@tsttrmapp66601.tine.no'
