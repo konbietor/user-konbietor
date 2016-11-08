@@ -38,7 +38,7 @@ alias sonar='mvn org.codehaus.mojo:sonar-maven-plugin:2.5:sonar'
 
 ### Gradle ###
 alias       gw='../gradlew'
-alias  gradle='gradlew'
+#alias  gradle='gradlew'
 alias gradlew='./gradlew'
 alias     gcb='gradlew --daemon clean build'
 alias  gcbdev='gcb -Dsdbapi.env=dev'
