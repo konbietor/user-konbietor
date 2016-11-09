@@ -46,6 +46,7 @@ alias     gbr='gradlew bootRun'
 alias     gsb='gbr'
 alias  gitest='gradlew --daemon integrationTest'
 alias gsingle='gradlew clean integrationTest --daemon --info --tests '
+alias   gwsit='gw clean integrationTest --daemon --info --tests '
 
 
 ### Git  ###
