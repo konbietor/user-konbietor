@@ -23,6 +23,8 @@ export MVN_HOME=$SOFTWARE_HOME/Maven/apache-maven-3.3.3
 export JREBEL_HOME=$SOFTWARE_HOME/JRebel/jrebel-5.5
 export SONAR_RUNNER_HOME=/Applications/sonar-runner-2.4
 
+export ADR_HOME=/Applications/adr-tools-2.1.0/src
+
 
 ### Maven ###
 #alias mvni='mvn -T 1C clean install -P jrebel -DskipTests=true'
@@ -129,6 +131,9 @@ alias     sshekprod='ssh ek@trmapp10001.tine.no'
 
 ### CoffeeScript ###
 alias genocoffee='coffee -wc ~/GitHub/geno/web/src/main/webapp/javascript/*.coffee ~/GitHub/geno/web/src/main/webapp/javascript/*/*.coffee'
+
+### ADR TOOL ###
+alias        adr=$ADR_HOME/adr
 
 ### Path ###
 # (Requires $JAVA_HOME and $GIT_HOME to be set)
