@@ -110,6 +110,7 @@ alias   ndx='cd $GITHUB_DIR/ndx'
 alias   hz='cd $GITHUB_DIR/tine-hazelcast'
 alias  hzs='cd $GITHUB_DIR/tine-hazelcast/server'
 alias  hzr='cd $GITHUB_DIR/tine-hazelcast/api-runtime'
+alias   ba='cd backend'
 
 
 ### TBS ###
@@ -128,6 +129,12 @@ alias  sshgridapiqa='ssh hz@qatrmapp10002.tine.no'
 alias     sshektest='ssh ek@tsttrmapp66601.tine.no'
 alias       sshekqa='ssh ek@qatrmapp10001.tine.no'
 alias     sshekprod='ssh ek@trmapp10001.tine.no'
+
+### Fellesbeite ###
+alias     sshfeltst='ssh fellesbeite@tsttrmapp66601'
+alias      sshfelqa='ssh fellesbeite@qatrmapp10001'
+alias    sshfelprod='ssh fellesbeite@trmapp10001.tine.no'
+
 
 ### CoffeeScript ###
 alias genocoffee='coffee -wc ~/GitHub/geno/web/src/main/webapp/javascript/*.coffee ~/GitHub/geno/web/src/main/webapp/javascript/*/*.coffee'
