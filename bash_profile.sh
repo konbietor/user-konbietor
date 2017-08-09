@@ -136,6 +136,14 @@ alias     sshfeltst='ssh fellesbeite@tsttrmapp66601'
 alias      sshfelqa='ssh fellesbeite@qatrmapp10001'
 alias    sshfelprod='ssh fellesbeite@trmapp10001.tine.no'
 
+### Melkekvalitet ###
+alias   sshmkvaltst='ssh melkekvalitet@tsttrmapp66602.tine.no'
+
+### Melkekvalitet ###
+alias   sshmkvaltst='ssh melkekvalitet@tsttrmapp66602.tine.no'
+
+### AdvisorAdmin ###
+alias     sshadvtst='ssh advisoradmin@tsttrmapp66601.tine.no'
 
 ### CoffeeScript ###
 alias genocoffee='coffee -wc ~/GitHub/geno/web/src/main/webapp/javascript/*.coffee ~/GitHub/geno/web/src/main/webapp/javascript/*/*.coffee'
