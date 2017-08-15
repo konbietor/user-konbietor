@@ -122,7 +122,8 @@ alias  copytotbstst='scp build/libs/backend-0.1-SNAPSHOT.jar tbs@tsttrmapp66601:
 alias   copytotbsqa='scp build/libs/backend-0.1-SNAPSHOT.jar tbs@qatrmapp10001:apps/tbs-backend.jar'
 
 ### GRID ###
-alias       sshgrid='ssh grid@grid10001'
+alias  sshgridprod1='ssh grid@trmapp10004.tine.no'
+alias  sshgridprod2='ssh grid@trmapp10005.tine.no'
 alias sshgridapitst='ssh hz@tsttrmapp66602'
 alias  sshgridapiqa='ssh hz@qatrmapp10002.tine.no'
 
