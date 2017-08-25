@@ -131,6 +131,9 @@ alias  sshgridapiqa='ssh hz@qatrmapp10002.tine.no'
 alias    sshrekutst='ssh reku@tsttrmku10001.tine.no'
 alias     sshrekuqa='ssh reku@qatrmku10001.tine.no'
 
+### Rekuapps ###
+alias sshrekuappsprod='ssh rekuapps@trmku10002.tine.no'
+
 ### EK ###
 alias     sshektest='ssh ek@tsttrmapp66601.tine.no'
 alias       sshekqa='ssh ek@qatrmapp10001.tine.no'
