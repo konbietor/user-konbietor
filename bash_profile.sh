@@ -106,12 +106,17 @@ alias rekus='cd $GITHUB_DIR/ReKu/reku-services; bashrc'
 alias  geno='cd $GITHUB_DIR/geno; bashrc'
 alias    ek='cd $GITHUB_DIR/ek'
 alias   tbs='cd $GITHUB_DIR/tbs'
-alias   pfb='cd $GITHUB_DIR/produksjonskontroll-fruktbarhet'
 alias   ndx='cd $GITHUB_DIR/ndx'
 alias   hz='cd $GITHUB_DIR/tine-hazelcast'
 alias  hzs='cd $GITHUB_DIR/tine-hazelcast/server'
 alias  hzr='cd $GITHUB_DIR/tine-hazelcast/api-runtime'
+alias  fel='cd $GITHUB_DIR/fellesbeite'
+alias  fru='cd $GITHUB_DIR/produksjonskontroll-fruktbarhet'
+alias  hel='cd $GITHUB_DIR/produksjonskontroll-helse'
 alias   ba='cd backend'
+alias   up='cd ..'
+alias   f='cd frontend'
+alias   b='cd backend'
 
 
 ### TBS ###
