@@ -158,7 +158,7 @@ export PATH=$PATH:$JAVA_HOME/bin:$GIT_HOME/cmd:$MVN_HOME/bin:$SONAR_RUNNER_HOME/
 export MAVEN_OPTS='-Xmx512m -XX:MaxPermSize=256m'
 
 ### Java ###
-# apple.awt.UIElement=true will stop Java Coffee Cup icon in the Dock on Mac OSX
+# apple.awt.UIElement=true will avoid Java Coffee Cup icon appearing in the Dock on Mac OSX
 export JAVA_TOOL_OPTIONS="-Dapple.awt.UIElement=true"
 
 
